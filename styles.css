@@ -1,6 +1,6 @@
-/* * {
+* {
   border: 1px solid red;
-} */
+}
 
 body {
   font-family: "Roboto", sans-serif; /*This imports the Roboto Google font*/
@@ -77,7 +77,7 @@ a {
   margin: 0;
 }
 
-button {
+.signup button {
   background-color: #3882f6;
   border-radius: 7px;
   border: none;
@@ -149,4 +149,33 @@ button {
   font-weight: 700;
   font-style: normal;
   align-self: flex-end;
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+}
+
+.section4 .text-button-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #3882f6;
+}
+.section4 .text-button {
+  margin: 0;
+  padding: 0 130px;
+}
+
+.section4 .button {
+  align-self: center;
+}
+
+.section4 button {
+  border: 2px solid #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  padding: 8px 36px;
+  font-weight: 700;
+  font-size: 18px;
 }
